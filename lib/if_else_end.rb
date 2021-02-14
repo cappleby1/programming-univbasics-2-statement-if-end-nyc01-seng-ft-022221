@@ -13,4 +13,8 @@ else
 end
 
 
-## 
+##Cool print option
+puts "What year is it?"
+this_year = Time.now.year
+puts "Hey, its 2021, dont you know!" if this_year = 2021
+# you could use "unless" instead of if-not
