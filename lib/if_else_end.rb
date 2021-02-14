@@ -22,7 +22,7 @@ puts "Hey, its 2021, dont you know!" if this_year = 2021
 
 =end
 
-if Time.now % 2 == 0
+if current_time.to_i % 2 == 0
   puts "Even!"
 else 
   puts "Odd!"
