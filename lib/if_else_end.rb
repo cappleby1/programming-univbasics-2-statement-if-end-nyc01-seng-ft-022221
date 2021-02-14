@@ -3,7 +3,7 @@
 #import rand
 
 chance_of_rain = rand
-puts "Chance of rain is {rand}"
+puts "Chance of rain is /{rand}"
 if chance_of_rain <= 0.25
   puts "Pack a sun shelter!"
 elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75)
