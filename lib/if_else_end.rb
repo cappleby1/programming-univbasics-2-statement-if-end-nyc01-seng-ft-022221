@@ -1,6 +1,6 @@
 # Write your solution here
 
-import rand
+#import rand
 
 chance_of_rain = rand
 if chance_of_rain <= 0.25
