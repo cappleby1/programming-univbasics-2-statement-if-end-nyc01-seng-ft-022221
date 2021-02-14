@@ -1,5 +1,6 @@
 # Write your solution here
 
+=begin
 #import rand
 
 chance_of_rain = rand
@@ -18,3 +19,10 @@ puts "What year is it?"
 this_year = Time.now.year
 puts "Hey, its 2021, dont you know!" if this_year = 2021
 # you could use "unless" instead of if-not
+
+=end
+
+if Time.now % 0
+  puts "Even!"
+else 
+  puts "Odd!"
